@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "pop-rock-melody-generator"
+version = "0.1.0"
+description = "A simple pop-rock melody generator."
+authors = ["John Vandivier <vandivi3r@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "pop_rock_tabs_to_mingus"}]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+mingus = "^0.6.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
