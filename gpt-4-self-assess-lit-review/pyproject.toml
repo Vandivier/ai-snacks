@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "gpt-4-self-assess-lit-review"
+version = "0.1.0"
+description = ""
+authors = ["Vandivier <john@afterecon.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "gpt_4_self_assess_lit_review"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+tiktoken = "^0.3.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
