@@ -2,6 +2,14 @@
 
 Using GPT-4 to ask GPT-4 if GPT-4 is bad
 
+## study reproduction steps
+
+1. send `training-sci-american.txt` to the GPT-4 ChatGPT interface.
+2. save the result to `sci-am-summarized.txt`
+3. run `poetry run python main.py`
+4. take the resulting three `query_with_context` files and send them sequentially to the GPT-4 ChatGPT interface.
+5. save the result as final_result.txt
+
 ## usage
 
 ```
@@ -12,17 +20,9 @@ poetry run python main.py
 
 ## about main.py
 
-this script does four things:
+this script merges the main query with context for GPT-4 and writes the result to `query_with_context.txt`
 
-1. sends `training-data.txt` to GPT-4
-2. confirms GPT-4 responds as expected
-3. sends `main-query.txt` to GPT-4
-4. prints the response to `raw.tex`
-
-`raw.tex` then allows us to build a research report with two more steps:
-
-1. manually update `raw.tex` to `updated.tex`
-2. compile `updated.tex` to `report.pdf`
+in the future this can be automatically sent to the GPT-4 api.
 
 ## count-tokens.py
 

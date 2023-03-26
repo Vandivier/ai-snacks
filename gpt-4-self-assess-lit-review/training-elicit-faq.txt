@@ -1,7 +1,3 @@
-I am sending an article.
-Acknowledge receipt by saying ACK then summarizing the article in three sentences.
-Include the author name and article title in your summary.
-
 ---
 Author: Ought
 Date Accessed: 3/26/23
@@ -128,3 +124,4 @@ We use a bag-of-words SVM to classify which studies are randomized controlled tr
 We predict which columns will be most useful to see about each paper (e.g. outcome measured, intervention tested, sample size, etc) using a model finetuned on Elicit data to classify which information is in papers.
 We use the prompt-based GPT-3 Davinci Instruct model for some of the supplementary columns (e.g., number of participants, number of studies), and a fine-tuned Curie model for others (e.g., intervention, dose). Details of the prompts we use can be found above.
 We also show you how the paper has been critiqued If you open the paper detail modal, we surface the citations most likely to criticize methodology by first ranking citations from Semantic Scholar using the GPT-3 Ada search endpoint, then further using a finetuned GPT-3 Curie model.
+---
