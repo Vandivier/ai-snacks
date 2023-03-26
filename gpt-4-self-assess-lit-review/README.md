@@ -23,3 +23,11 @@ this script does four things:
 
 1. manually update `raw.tex` to `updated.tex`
 2. compile `updated.tex` to `report.pdf`
+
+## about training-data.txt
+
+it's a stripped down version of three sources, omitting graphs and stuff:
+
+1. https://openai.com/research/gpt-4
+2. https://www.scientificamerican.com/article/we-asked-gpt-3-to-write-an-academic-paper-about-itself-mdash-then-we-tried-to-get-it-published/
+3. https://elicit.org/faq
