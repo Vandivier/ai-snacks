@@ -10,6 +10,7 @@ packages = [{include = "gpt_4_self_assess_lit_review"}]
 [tool.poetry.dependencies]
 python = "^3.9"
 tiktoken = "^0.3.2"
+openai = "^0.27.2"
 
 
 [build-system]
