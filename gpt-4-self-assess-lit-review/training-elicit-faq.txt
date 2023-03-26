@@ -3,9 +3,10 @@ Acknowledge receipt by saying ACK then summarizing the article in three sentence
 Include the author name and article title in your summary.
 
 ---
-Title: Frequently Asked Questions
 Author: Ought
 Date Accessed: 3/26/23
+Publisher: Ought
+Title: Frequently Asked Questions
 URL: https://elicit.org/faq
 
 Last updated: April 2022

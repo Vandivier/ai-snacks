@@ -3,9 +3,10 @@ Acknowledge receipt by saying ACK then summarizing the article in three sentence
 Include the author name and article title in your summary.
 
 ---
-Title: GPT-4
 Author: OpenAI
 Date Accessed: 3/26/23
+Publisher: OpenAI
+Title: GPT-4
 URL: https://openai.com/research/gpt-4
 
 Publication

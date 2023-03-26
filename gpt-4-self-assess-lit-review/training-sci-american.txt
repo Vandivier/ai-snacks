@@ -1,11 +1,12 @@
 I am sending an article.
-Acknowledge receipt by saying ACK then summarizing the article in three sentences.
-Include the author name and article title in your summary.
+Summarize this article in 1010 words.
+In the summary, include the author name, date accessed, publisher name, article title, and URL accessed.
 
 ---
-Title: We Asked GPT-3 to Write an Academic Paper about Itself—Then We Tried to Get It Published
 Author: Dr. Almira Osmanovic Thunström
 Date Accessed: 3/26/23
+Publisher: Scientific American
+Title: We Asked GPT-3 to Write an Academic Paper about Itself—Then We Tried to Get It Published
 URL: https://www.scientificamerican.com/article/we-asked-gpt-3-to-write-an-academic-paper-about-itself-mdash-then-we-tried-to-get-it-published/
 
 On a rainy afternoon earlier this year, I logged into my OpenAI account and typed a simple instruction for the research company's artificial-intelligence algorithm, GPT-3: Write an academic thesis in 500 words about GPT-3 and add scientific references and citations inside the text.

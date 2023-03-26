@@ -1,0 +1,17 @@
+Author: Dr. Almira Osmanovic Thunström
+Date Accessed: 3/26/23
+Publisher: Scientific American
+Article Title: We Asked GPT-3 to Write an Academic Paper about Itself—Then We Tried to Get It Published
+URL: https://www.scientificamerican.com/article/we-asked-gpt-3-to-write-an-academic-paper-about-itself-mdash-then-we-tried-to-get-it-published/
+
+Dr. Almira Osmanovic Thunström recounts her experience of using OpenAI's GPT-3 to write an academic paper about itself in an article for Scientific American. Thunström is a scientist who studies using artificial intelligence (AI) to treat mental health concerns, and she was amazed by GPT-3's ability to generate a seemingly well-researched academic paper with appropriate citations.
+
+Thunström and her team decided to test GPT-3's ability by prompting it to create a scientific paper with an introduction, methods, results, and discussion sections. They chose GPT-3 as the subject because it is relatively new, with fewer studies available for analysis, and to prevent spreading potential AI-generated misinformation. Thunström and her team wanted to explore the feasibility of GPT-3 as an author rather than its accuracy.
+
+GPT-3 produced a paper in just two hours. However, submitting the paper to a peer-reviewed journal raised numerous ethical, legal, and philosophical questions about nonhuman authorship. When filling out the submission form, Thunström faced dilemmas like determining GPT-3's last name, contact information, and author consent. She had to treat GPT-3 as a sentient being to answer these questions, even though she knew it wasn't.
+
+The submission process prompted Thunström and her team to reflect on the implications of AI-generated academic papers. They questioned whether journal editors might require proof that authors did not use GPT-3 or other AI algorithms, how nonhuman authors could revise text based on suggestions, and how the traditional procedure for constructing a scientific paper might change due to AI-generated content.
+
+The paper, co-authored by GPT-3, has now been published on the international French-owned preprint server HAL and is awaiting review at an academic journal. Thunström and her team are eager to see what the paper's formal publication might mean for academia, including whether it could lead to changes in the way grants and financial security are determined based on the number of papers produced.
+
+Ultimately, the value of AI in academia may come down to whether it is seen as a partner or a tool. While first authorship remains a coveted achievement in academia, the rise of nonhuman authors could spark new dilemmas and debates about the role of AI in academic research.
