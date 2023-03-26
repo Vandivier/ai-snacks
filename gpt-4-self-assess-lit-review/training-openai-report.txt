@@ -1,8 +1,12 @@
-I am sending three articles. Acknowledge receipt by saying ACK then describing the author and title for each article, then give a one sentence summary for each article.
+I am sending an article.
+Acknowledge receipt by saying ACK then summarizing the article in three sentences.
+Include the author name and article title in your summary.
 
 ---
 Title: GPT-4
 Author: OpenAI
+Date Accessed: 3/26/23
+URL: https://openai.com/research/gpt-4
 
 Publication
 We’ve created GPT-4, the latest milestone in OpenAI’s effort in scaling up deep learning. GPT-4 is a large multimodal model (accepting image and text inputs, emitting text outputs) that, while less capable than humans in many real-world scenarios, exhibits human-level performance on various professional and academic benchmarks. For example, it passes a simulated bar exam with a score around the top 10% of test takers; in contrast, GPT-3.5’s score was around the bottom 10%. We’ve spent 6 months iteratively aligning GPT-4 using lessons from our adversarial testing program as well as ChatGPT, resulting in our best-ever results (though far from perfect) on factuality, steerability, and refusing to go outside of guardrails.

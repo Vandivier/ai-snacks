@@ -1,0 +1,129 @@
+I am sending an article.
+Acknowledge receipt by saying ACK then summarizing the article in three sentences.
+Include the author name and article title in your summary.
+
+---
+Title: Frequently Asked Questions
+Author: Ought
+Date Accessed: 3/26/23
+URL: https://elicit.org/faq
+
+Last updated: April 2022
+
+What is Elicit?
+Elicit is a research assistant using language models like GPT-3 to automate parts of researchers’ workflows. Currently, the main workflow in Elicit is Literature Review. If you ask a question, Elicit will show relevant papers and summaries of key information about those papers in an easy-to-use table.
+
+If you’d like to learn more, please review the resources in this section.
+
+How do people use Elicit?
+As of early 2023, Elicit’s users are primarily researchers (students and researchers in academia, at independent organizations, or operating independently). They find Elicit most valuable for finding papers to cite and defining research directions.
+
+Some of our most engaged researchers report using Elicit to find initial leads for papers, answer questions, and get perfect scores on exams. One researcher used a combination of Elicit Literature Review, Rephrase, and Summarization tasks to compile a literature review for publication.
+
+Our Twitter page shows more examples of researcher feedback and how people are using Elicit. Our YouTube page showcases different workflows to try.
+
+How is Elicit different from other research tools?
+With the Elicit Literature Review workflow, you can:
+
+Find relevant papers even if they don't match keywords.
+Elicit uses semantic similarity, which finds papers related to your question even if they don't use the same keywords. For example, it might return papers about “meditation” even if your query only mentioned “mindfulness.”
+Combine the breadth of semantic similarity with the precision of keyword matching.
+If you want to get a broad base of papers, then zoom in on a specific domain or keyword, you can do that with keyword filters.
+Read summaries of abstracts specific to your query.
+For every search result, Elicit reads the abstract and generates a custom summary that is relevant to your question. Most tools don't have summarization at all, not to mention a summarization that is specific to the query. This summary gives you a preliminary understanding of the research, simplifies complex or very long abstracts, and helps you evaluate whether the paper is relevant.
+Automatically search forwards and backwards in the citation graph to find more relevant papers.
+When you star results in Elicit, we’ll look through the citation graph of those papers to find more relevant papers. In other words, we look at all the earlier papers your papers referenced, and all future papers that cited your papers. Some search tools (Research Rabbit, Connected Papers) have similar capabilities but most don't. The search tools that do look through citation graphs don't rerank the results by semantic relevance to your question or summarize the resulting papers.
+Customize what you see about the paper and organize papers by that information.
+You can add more information about your papers one column at a time. You can see information like population and intervention details, results of the study, publishing journal, and study type. You can even ask a completely new question about the papers! Once you have the columns, you can sort your papers by the columns. You can review papers starting with the most cited, most recent, or with the largest sample size.
+Filter based on study type.
+Filter for just randomized controlled trials, meta-analyses, systematic reviews, or other types of reviews. You can use filters and starring together to find papers that were cited in systematic reviews, or later systematic reviews that cited a specific paper.
+Save & export your work.
+Your “Starred” page houses queries with starred results so you can review them later. You can also download a CSV or .bib file to import into reference managers like Zotero.
+The other “Tasks” in Elicit include Elicit & user-created research tasks that don't exist anywhere else. These tasks can help you brainstorm research questions, summarize paragraphs, and rephrase snippets of text.
+
+How is Elicit built?
+Elicit is an early-stage product, with updates and improvements every week (as documented on our mailing list). As of April 2022, the Literature Review workflow is implemented as follows:
+
+
+A more detailed description is given below.
+
+What are the limitations of Elicit?
+To help you calibrate how much you can rely on Elicit, we’ll share some of the limitations you should be aware of as you use Elicit:
+
+Limitations specific to Elicit
+Elicit uses language models, which have only been around since 2019. While already useful, these early stage technologies are far from “Artificial general intelligence that takes away all of our jobs.”
+
+For example, the models aren’t explicitly trained to be faithful to a body of text by default. We’ve had to customize the models to make sure their summaries or extractions are actually what is said in the abstract, and not what the model thinks is likely to be the case in general (sometimes called "hallucination"). While we’ve made a lot of progress and try hard to err on the side of Elicit saying nothing rather than saying something wrong, in some cases Elicit can miss the nuance of a paper or misunderstand what a number refers to.
+Elicit is a very early stage tool and we launch things uncomfortably beta to iterate quickly with user feedback. It’s more helpful to think of Elicit-generated content as around 80-90% accurate, definitely not 100% accurate.
+Other people have also helpfully shared thoughts on limitations [1,2].
+Limitations that apply to research or search tools in general
+Elicit is only as good as the papers underlying it. While we think researchers are a very careful and rigorous group on average, there is research with questionable methodology and even fraud. Elicit does not yet know how to evaluate whether one paper is more trustworthy than another, except by giving you some imperfect heuristics like citation count, journal, critiques from other researchers who cited the paper, and certain methodological details (sample size, study type, etc.). We’re actively researching how best to help with quality evaluation but, today, Elicit summarizes the findings of a bad study just like it summarizes the findings of a good study.
+In the same way that good research involves looking for evidence for and against various arguments, we recommend searching for papers presenting multiple sides of a position to avoid confirmation bias.
+Elicit works better for some questions and domains than others. We eventually want to help with all domains and types of research but, to date, we’ve focused on empirical research (e.g. randomized controlled trials in social sciences or biomedicine) so that we can apply lessons from the systematic review discipline.
+Other thoughts on limitations
+This section is really way too short. We tried to share enough to make you not overrely on Elicit but this is not a comprehensive list of possible limitations.
+
+Who is building Elicit?
+Elicit is built by Ought, a non-profit machine learning research lab with a team of eight people distributed across the Bay Area, Austin, New York, and Oristà. Our team brings experiences from academia, mature tech, and startups. Ought is funded by grants from organizations like Open Philanthropy, Jaan Tallin, Future of Life Institute, and other individuals identifying with the effective altruism and longtermism communities. Our funders and team are primarily motivated by making sure that artificial intelligence goes well for the world, in part by being useful for high-quality work like research. Elicit is the only project that Ought currently works on.
+
+What do I do if I have a problem?
+You can email help@elicit.org or send a message in the #support channel in the Elicit Slack Workspace. If your request has an Error ID please share it with us. That can help us resolve issues faster. Screenshots and screen recordings of the problem also help.
+
+How do I cite Elicit in my paper?
+In bibtex, you can use the following snippet:
+
+
+@software{elicit,
+  author = {{Ought}},
+  title = {Elicit: The AI Research Assistant},
+  url = {https://elicit.org},
+  year = {2023},
+  date = {2023-02-22},
+}
+
+In other cases, anything which includes the elicit.org URL is fine, for example:
+Ought; Elicit: The AI Research Assistant; https://elicit.org; accessed xxxx/xx/xx
+
+Appendix: what prompts do we use?
+Note: The prompts employed by Elicit are regularly updated, as we add new functionality and discover new techniques which lead to better results. An example is given below, but it is not a canonical reference.
+
+For the prompt-based Instruct model, the prompt looks like this, with “...” replaced with the query and paper details:
+
+Answer the question "..." based on the extract from a research paper.
+
+Try to answer, but say "... not mentioned in the paper" if you really don't know how to answer.
+
+Include everything that the paper excerpt has to say about the answer.
+Make sure everything you say is supported by the extract.
+Answer in one phrase or sentence.
+Paper title: ...
+Paper excerpt: ...
+Question: ...
+Answer:
+Appendix: how does Elicit work?
+How does search work?
+When you enter a question, we find the most semantically similar papers from Semantic Scholar’s database:
+
+We search our corpus of 115M papers from the Semantic Scholar Academic Graph dataset. We search for papers that are semantically similar to your question. This means that if you enter in the keyword “anxiety”, we’ll also return papers that include similar words, like “panic attack”, so you don’t need to know exactly the right keywords to search.
+We perform semantic search by storing embeddings of the titles and abstracts using paraphrase-mpnet-base-v2 in a vector database; when you enter a question, we embed it using the same model then ask the vector database to return the 400 closest embeddings.
+If you add filters like data or keyword filters, we apply those filters before finding the 400 closest embeddings.
+We retrieve the top 400 papers from our corpus.
+We then re-rank them based on a more detailed consideration of how semantically similar the title and abstract are to your question:
+First, reranking the 400 using a more powerful GPT-3 Babbage model.
+Then, reranking the top 20 using castorini/monot5-base-msmarco-10k.
+Finally, we return the top 8 (or the next 8 results when you click “show more”).
+We find and parse PDFs of open access papers using Unpaywall and Grobid:
+
+For each paper, we search Unpaywall to see if there’s an open access PDF available online. If there is, we show a “PDF” link in Elicit.
+We parse the PDFs to show the full-text of the paper in Elicit using Grobid. We don’t always do this perfectly, so sometimes there are PDF links but we can’t show the full-text in Elicit.
+How does show more like starred work?
+If you star papers and click “show more like starred”, we retrieve paper candidates by using the Semantic Scholar API to find papers that have cited the starred papers, and papers that were cited by the starred papers. We then re-rank these papers [using the same method as above]
+
+How does extracting the key information work?
+For each of the top papers, we extract key information like “outcome measured”, “Intervention”, and “sample size” and show them in columns in Elicit.
+
+We generate what the paper implies about your question using a GPT-3 Davinci model finetuned on roughly 2,000 examples of questions, abstracts, and takeaways.
+We use a bag-of-words SVM to classify which studies are randomized controlled trials.
+We predict which columns will be most useful to see about each paper (e.g. outcome measured, intervention tested, sample size, etc) using a model finetuned on Elicit data to classify which information is in papers.
+We use the prompt-based GPT-3 Davinci Instruct model for some of the supplementary columns (e.g., number of participants, number of studies), and a fine-tuned Curie model for others (e.g., intervention, dose). Details of the prompts we use can be found above.
+We also show you how the paper has been critiqued If you open the paper detail modal, we surface the citations most likely to criticize methodology by first ranking citations from Semantic Scholar using the GPT-3 Ada search endpoint, then further using a finetuned GPT-3 Curie model.

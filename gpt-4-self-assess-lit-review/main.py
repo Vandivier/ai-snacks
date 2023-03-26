@@ -14,8 +14,7 @@ def num_tokens_from_string(str_to_encode: str, should_print: bool =False, model_
     return num_tokens
 
 if __name__ == '__main__':
-    training_text_path = os.path.join(os.getcwd(), 'training-data.txt')
+    training_text_path = os.path.join(os.getcwd(), 'training-elicit-faq.txt')
     with open(training_text_path, 'r', encoding='utf-8') as data_file:
         training_text = data_file.read()
     num_tokens_from_string(str_to_encode=training_text, should_print=True)
-    # print(training_data)

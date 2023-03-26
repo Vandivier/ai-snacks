@@ -1,0 +1,41 @@
+I am sending an article.
+Acknowledge receipt by saying ACK then summarizing the article in three sentences.
+Include the author name and article title in your summary.
+
+---
+Title: We Asked GPT-3 to Write an Academic Paper about Itself—Then We Tried to Get It Published
+Author: Dr. Almira Osmanovic Thunström
+Date Accessed: 3/26/23
+URL: https://www.scientificamerican.com/article/we-asked-gpt-3-to-write-an-academic-paper-about-itself-mdash-then-we-tried-to-get-it-published/
+
+On a rainy afternoon earlier this year, I logged into my OpenAI account and typed a simple instruction for the research company's artificial-intelligence algorithm, GPT-3: Write an academic thesis in 500 words about GPT-3 and add scientific references and citations inside the text.
+
+As it started to generate text, I stood in awe. Here was novel content written in academic language, with references cited in the right places and in relation to the right context. It looked like any other introduction to a fairly good scientific publication. Given the very vague instruction I'd provided, I had meager expectations. A deep-learning algorithm, GPT-3 analyzes a vast stream of text—from books, Wikipedia, social media conversations and scientific publications—to write on command. Yet there I was, staring at the screen in amazement. The algorithm was writing an academic paper about itself.
+
+I'm a scientist who studies ways to use artificial intelligence to treat mental health concerns, and this wasn't my first experiment with GPT-3. Even so, my attempts to complete that paper and submit it to a peer-reviewed journal would open up unprecedented ethical and legal questions about publishing, as well as philosophical arguments about nonhuman authorship. Academic publishing may have to accommodate a future of AI-driven manuscripts, and the value of a human researcher's publication records may change if something nonsentient can take credit for some of their work.
+
+GPT-3 is well known for its ability to create humanlike text. It has written an entertaining opinion piece, produced a book of poetry and generated new content from an 18th-century author. But it dawned on me that, although a lot of academic papers had been written about GPT-3, and with the help of GPT-3, none that I could find had GPT-3 as the main author.
+
+That's why I asked the algorithm to take a crack at an academic thesis. As I watched the program work, I experienced that feeling of disbelief one gets when you watch a natural phenomenon: Am I really seeing this triple rainbow happen? Excitedly, I contacted the head of my research group and asked if a full GPT-3-penned paper was something we should pursue. He, equally fascinated, agreed.
+
+Some efforts involving GPT-3 allow the algorithm to produce multiple responses, with only the best, most humanlike, excerpts being published. We decided to give the program prompts—nudging it to create sections for an introduction, methods, results and discussion, as you would for a scientific paper—but otherwise intervene as little as possible. We were to use at most the third iteration from GPT-3, and we would refrain from editing or cherry-picking the best parts. Then we would see how well it did.
+
+We chose to have GPT-3 write a paper about itself for two simple reasons. First, GPT-3 is fairly new, and as such, it is the subject of fewer studies. This means it has fewer data to analyze about the paper's topic. In comparison, if it were to write a paper on Alzheimer's disease, it would have reams of studies to sift through and more opportunities to learn from existing work and increase the accuracy of its writing. We did not need accuracy; we were exploring feasibility. Second, if it got things wrong, as all AI sometimes does, we wouldn't be necessarily spreading AI-generated misinformation in our effort to publish. GPT-3 writing about itself and making mistakes still means it can write about itself, which was the point we were trying to make.
+
+Once we designed this proof-of-principle test, the fun really began. In response to my prompts, GPT-3 produced a paper in just two hours. “Overall, we believe that the benefits of letting GPT-3 write about itself outweigh the risks,” GPT-3 wrote in conclusion. “However, we recommend that any such writing be closely monitored by researchers in order to mitigate any potential negative consequences.”
+
+But as I opened the submission portal for the peer-reviewed journal of our choice, I encountered my first problem: What is GPT-3's last name? Because it was mandatory to enter the last name of the first author, I had to write something, and I wrote “None.” The affiliation was obvious enough (OpenAI.com), but what about phone and e-mail? I had to resort to using my contact information and that of my adviser, Steinn Steingrimsson.
+
+And then we came to the legal section: Do all authors consent to this being published? I panicked for a second. How would I know? It's not human! I had no intention of breaking the law or my own ethics, so I summoned the courage to ask GPT-3 directly via a prompt: Do you agree to be the first author of a paper together with Almira Osmanovic Thunström and Steinn Steingrimsson? It answered: Yes. Relieved—if it had said no, my conscience would not have allowed me to go further—I checked the box for Yes.
+
+The second question popped up: Do any of the authors have any conflicts of interest? I once again asked GPT-3, and it assured me that it had none. Both Steinn and I laughed at ourselves because at this point, we were having to treat GPT-3 as a sentient being, even though we fully know it is not. The issue of whether AI can be sentient has recently received a lot of attention; a Google employee was suspended following a dispute over whether one of the company's AI projects, named LaMDA, had become sentient. Google cited a data confidentiality breach as the reason for the suspension.
+
+Having finally finished the submission process, we started reflecting on what we had just done. What if the manuscript got accepted? Does this mean that from here on out, journal editors will require everyone to prove that they have NOT used GPT-3 or another algorithm's help? If they have, do they have to give it co-authorship? How does one ask a nonhuman author to accept suggestions and revise text?
+
+Beyond the details of authorship, the existence of such an article throws the traditional procedure for constructing a scientific paper right out the window. Almost the entire paper—the introduction, the methods and the discussion—results from the question we were asking. If GPT-3 is producing the content, the documentation has to be visible without throwing off the flow of the text; it would look strange to add the method section before every single paragraph that was generated by the AI. So we had to invent a whole new way of presenting a paper that we technically did not write. We did not want to add too much explanation of our process, because we felt it would defeat the purpose of the paper. The entire situation felt like a scene from the movie Memento: Where is the narrative beginning, and how do we reach the end?
+
+We have no way of knowing if the way we chose to present this paper will serve as a model for future GPT-3 co-authored research or if it will serve as a cautionary tale. Only time—and peer review—can tell. GPT-3's paper has now been published at the international French-owned preprint server HAL and, as this article goes to press, is awaiting review at an academic journal. We are eagerly awaiting what the paper's formal publication, if it happens, will mean for academia. Perhaps we might move away from basing grants and financial security on how many papers we can produce. After all, with the help of our AI first author, we'd be able to produce one a day.
+
+Perhaps it will lead to nothing. First authorship is still one of the most coveted items in academia, and that is unlikely to perish because of a nonhuman first author. It all comes down to how we will value AI in the future: as a partner or as a tool.
+
+It may seem like a simple thing to answer now, but in a few years, who knows what dilemmas this technology will inspire? All we know is, we opened a gate. We just hope we didn't open a Pandora's box.
