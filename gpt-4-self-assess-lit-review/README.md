@@ -26,7 +26,7 @@ this script does four things:
 
 ## about training-data.txt
 
-it's a stripped down version of three sources, omitting graphs and stuff:
+it's a stripped down version of three sources, omitting graphs, table data, and some sample outputs like the Socratic tutor transcript:
 
 1. https://openai.com/research/gpt-4
 2. https://www.scientificamerican.com/article/we-asked-gpt-3-to-write-an-academic-paper-about-itself-mdash-then-we-tried-to-get-it-published/
