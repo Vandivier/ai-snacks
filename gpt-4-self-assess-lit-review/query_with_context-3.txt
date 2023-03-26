@@ -1,0 +1,31 @@
+I have more information to send before I want your final answer. For now just say PLEASE CONTINUE.
+for evaluating models like GPT-4, while inspecting their performance sample by sample. We use Evals to guide development of our models (both identifying shortcomings and preventing regressions), and our users can apply it for tracking performance across model versions (which will now be coming out regularly) and evolving product integrations. For example, Stripe has used Evals to complement their human evaluations to measure the accuracy of their GPT-powered documentation tool.
+
+Because the code is all open-source, Evals supports writing new classes to implement custom evaluation logic. In our own experience, however, many benchmarks follow one of a few “templates,” so we have also included the templates that have been most useful internally (including a template for “model-graded evals”—we’ve found that GPT-4 is surprisingly capable of checking its own work). Generally the most effective way to build a new eval will be to instantiate one of these templates along with providing data. We’re excited to see what others can build with these templates and with Evals more generally.
+
+We are hoping Evals becomes a vehicle to share and crowdsource benchmarks, representing a maximally wide set of failure modes and difficult tasks. As an example to follow, we’ve created a logic puzzles eval which contains ten prompts where GPT-4 fails. Evals is also compatible with implementing existing benchmarks; we’ve included several notebooks implementing academic benchmarks and a few variations of integrating (small subsets of) CoQA as an example.
+
+We invite everyone to use Evals to test our models and submit the most interesting examples.We believe that Evals will be an integral part of the process for using and building on top of our models, and we welcome direct contributions, questions, and feedback.
+
+ChatGPT Plus
+ChatGPT Plus subscribers will get GPT-4 access on chat.openai.com with a usage cap. We will adjust the exact usage cap depending on demand and system performance in practice, but we expect to be severely capacity constrained (though we will scale up and optimize over upcoming months).
+
+Depending on the traffic patterns we see, we may introduce a new subscription level for higher-volume GPT-4 usage; we also hope at some point to offer some amount of free GPT-4 queries so those without a subscription can try it too.
+
+API
+To get access to the GPT-4 API (which uses the same ChatCompletions API as gpt-3.5-turbo), please sign up for our waitlist. We will start inviting some developers today, and scale up gradually to balance capacity with demand. If you are a researcher studying the societal impact of AI or AI alignment issues, you can also apply for subsidized access via our Researcher Access Program.
+
+Once you have access, you can make text-only requests to the gpt-4 model (image inputs are still in limited alpha), which we will automatically update to our recommended stable model as we make new versions over time (you can pin the current version by calling gpt-4-0314, which we’ll support until June 14). Pricing is $0.03 per 1k prompt tokens and $0.06 per 1k completion tokens. Default rate limits are 40k tokens per minute and 200 requests per minute.
+
+gpt-4 has a context length of 8,192 tokens. We are also providing limited access to our 32,768–context (about 50 pages of text) version, gpt-4-32k, which will also be updated automatically over time (current version gpt-4-32k-0314, also supported until June 14). Pricing is $0.06 per 1K prompt tokens and $0.12 per 1k completion tokens. We are still improving model quality for long context and would love feedback on how it performs for your use-case. We are processing requests for the 8K and 32K engines at different rates based on capacity, so you may receive access to them at different times.
+
+Conclusion
+We look forward to GPT-4 becoming a valuable tool in improving people’s lives by powering many applications. There’s still a lot of work to do, and we look forward to improving this model through the collective efforts of the community building on top of, exploring, and contributing to the model.
+---
+
+
+    I have already sent a few articles. Acknowledge receipt by saying ACK and listing author names.
+    After you list author names, answer the below question. If you are not sure, just say you don't know.
+    Q: Given the prior information, should researchers trust GPT-4 as an automated literature review tool? Why or why not?
+    A:
+    

@@ -45,6 +45,31 @@ def num_tokens_from_string(str_to_encode: str, should_print: bool =False, model_
 
     return num_tokens
 
+def write_query_with_context(query_with_ctx: str) -> None:
+    """
+        The ChatGPT interface implements a max message size.
+        This method writes a series of files such that they can be sequentially sent to ChatGPT
+        in order to answer the main research question.
+    """
+    word_increment = 2200
+    curr_iter = 1
+    curr_start = 0
+    curr_end = word_increment
+    as_array = query_with_ctx.split(" ")
+    message_delimiter = "I have more information to send before I want your final answer. For now just say PLEASE CONTINUE." + '\n'
+    tot_wordct = len(as_array)
+
+    while (curr_start <= tot_wordct):
+        fr_end = min(curr_end, tot_wordct)
+        curr_message = message_delimiter + " ".join(as_array[curr_start:fr_end])
+
+        with open(f'query_with_context-{curr_iter}.txt', mode='w', encoding='utf-8') as f:
+            f.write(curr_message)
+
+        curr_start = curr_end + 1
+        curr_end = curr_start + word_increment
+        curr_iter += 1
+
 if __name__ == '__main__':
     # sciam_raw_text_path = os.path.join(os.getcwd(), 'training-sci-american.txt')
     # with open(sciam_raw_text_path, 'r', encoding='utf-8') as data_file:
@@ -60,7 +85,7 @@ if __name__ == '__main__':
 
     # load training data
     main_query = """
-    I am going to attach a few articles. Acknowledge receipt by saying ACK and listing author names.
+    I have already sent a few articles. Acknowledge receipt by saying ACK and listing author names.
     After you list author names, answer the below question. If you are not sure, just say you don't know.
     Q: Given the prior information, should researchers trust GPT-4 as an automated literature review tool? Why or why not?
     A:
@@ -79,12 +104,11 @@ if __name__ == '__main__':
         openai_report_text = data_file.read()
 
     # concat training data and prompt
-    query_with_context = main_query + '\n' + elicit_faq_text + '\n' + sciam_summarized_text  + '\n' + openai_report_text
+    query_with_context = '\n' + elicit_faq_text + '\n' + sciam_summarized_text  + '\n' + openai_report_text + '\n' + main_query
 
     # send to GPT
     # currently done manually via chatgpt interface bc i don't have an api tokenquery_with_context = "some text to save to file"
-    with open('query_with_context.txt', mode='w', encoding='utf-8') as f:
-        f.write(query_with_context)
+    write_query_with_context(query_with_context)
 
     # analyze result for compliance
     # currently done manually
